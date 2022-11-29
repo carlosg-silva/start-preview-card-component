@@ -120,6 +120,7 @@ img {
     display: flex;
     flex-wrap: wrap;
     border-radius: 15px;
+    margin: 10px;
   }
 
   .card-img {
@@ -140,5 +141,14 @@ img {
     width: 360px;
     border-radius: 0 0 15px 15px;
     text-align: center;
+  }
+
+  .card-text p {
+    margin-bottom: -20px;
+  }
+
+  .card-info {
+    margin-top: 50px;
+    flex-direction: column;
   }
 }
